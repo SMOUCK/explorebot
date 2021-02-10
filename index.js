@@ -92,7 +92,9 @@ bot.on('message', async message => {
     }
 
     if(cmd === `${prefix}soon`){
-        message.channel.send('**STATUS**');
+        message.channel.send(['**Staus:**',
+        '**IN DEVELOPMENT**'
+    ]);
     }
 
     if (cmd === `${prefix}redengine-undetected`){
