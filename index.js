@@ -91,6 +91,10 @@ bot.on('message', async message => {
         return;
     }
 
+    if(cmd === `${prefix}soon`){
+        message.channel.send('**STATUS**');
+    }
+
     if (cmd === `${prefix}redengine-undetected`){
         let embed = new Discord.MessageEmbed()
             .setTitle('RedEngine Status')
