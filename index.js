@@ -29,6 +29,8 @@ bot.on('message', async message => {
                 '★ 1 Month <a:4745_thisr:740969764658216983> 20€',
                 ' ',
                 '★ 1 Week <a:4745_thisr:740969764658216983> 10€',
+                ' ',
+                '**Website:** [Click Here](https://exploreshop.net/)'
             ])
             .setImage('https://cdn.discordapp.com/attachments/628418104812240912/631653739161321531/spacerezr_la_mysere.gif')
             .setThumbnail('https://media.discordapp.net/attachments/740906333133471786/741382864490463292/exploreshoplogo.gif')
